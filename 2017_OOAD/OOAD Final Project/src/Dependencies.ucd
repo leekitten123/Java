@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Dependencies" size="1216,782" id="." metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204F4F414446696E616C">
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.2/@sourceConnections.1" name="pos" location="105,285" size="135,166" id="pos">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@children.0/@sourceConnections.0 //@children.1/@children.0/@sourceConnections.0 //@children.1/@children.1/@sourceConnections.2 //@children.1/@children.2/@sourceConnections.2" name="MainSystem" location="10,70" size="119,29" id="pos/MainSystem" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->event/EventPManage*pos/MainSystem->event/EventPManage" source="//@children.0/@children.0" target="//@children.4/@children.3" targetEnd="//@children.0/@children.0/@sourceConnections.0/@children.2" label="//@children.0/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="72,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="56,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->event/EventPInfo*pos/MainSystem->event/EventPInfo" source="//@children.0/@children.0" target="//@children.4/@children.2" targetEnd="//@children.0/@children.0/@sourceConnections.1/@children.2" label="//@children.0/@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="65,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="49,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->event/EventPPay*pos/MainSystem->event/EventPPay" source="//@children.0/@children.0" target="//@children.4/@children.4" targetEnd="//@children.0/@children.0/@sourceConnections.2/@children.2" label="//@children.0/@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="78,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="38,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->event/EventPGive*pos/MainSystem->event/EventPGive" source="//@children.0/@children.0" target="//@children.4/@children.1" targetEnd="//@children.0/@children.0/@sourceConnections.3/@children.2" label="//@children.0/@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="67,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="50,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->product/ProductBuy*pos/MainSystem-Soyatec::Import->product/ProductBuy*pos/MainSystem->product/ProductBuy" source="//@children.0/@children.0" target="//@children.5/@children.1" targetEnd="//@children.0/@children.0/@sourceConnections.4/@children.2" label="//@children.0/@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="119,6" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->product/ProductDB*pos/MainSystem-Soyatec::Import->product/ProductDB*pos/MainSystem->product/ProductDB" source="//@children.0/@children.0" target="//@children.5/@children.2" targetEnd="//@children.0/@children.0/@sourceConnections.5/@children.2" label="//@children.0/@children.0/@sourceConnections.5/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="119,8" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,19"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem-Soyatec::Import->event/Event" source="//@children.0/@children.0" target="//@children.4/@children.0" targetEnd="//@children.0/@children.0/@sourceConnections.6/@children.2" label="//@children.0/@children.0/@sourceConnections.6/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="80,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="19,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->event/EventPSelect*pos/MainSystem->event/EventPSelect" source="//@children.0/@children.0" target="//@children.4/@children.6" targetEnd="//@children.0/@children.0/@sourceConnections.7/@children.2" label="//@children.0/@children.0/@sourceConnections.7/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="66,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="56,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos/MainSystem->event/EventPReceipt*pos/MainSystem->event/EventPReceipt" source="//@children.0/@children.0" target="//@children.4/@children.5" targetEnd="//@children.0/@children.0/@sourceConnections.8/@children.2" label="//@children.0/@children.0/@sourceConnections.8/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="67,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="60,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos->event*pos-Soyatec::Import->event*pos->event*pos->event*pos->event" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,149" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pos->product*pos-Soyatec::Import->product*pos->product*pos->product*pos->product" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,83" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,163"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.2/@sourceConnections.0" name="actor" location="5,15" size="306,206" id="actor">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.1/@sourceConnections.1 //@children.1/@children.2/@sourceConnections.1" name="Actor" location="122,40" size="75,29" id="actor/Actor">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor/Actor-Soyatec::Import->pos/MainSystem" source="//@children.1/@children.0" target="//@children.0/@children.0" targetEnd="//@children.1/@children.0/@sourceConnections.0/@children.2" label="//@children.1/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="37,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="49,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.2/@sourceConnections.0 //@children.2/@children.0/@sourceConnections.1" name="Cashier" location="3,95" size="90,29" id="actor/Cashier">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor/Cashier->actor/Customer*actor/Cashier-Soyatec::Import->actor/Customer" source="//@children.1/@children.1" target="//@children.1/@children.2" targetEnd="//@children.1/@children.1/@sourceConnections.0/@children.2" label="//@children.1/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="85,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="5,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor/Cashier->actor/Actor" source="//@children.1/@children.1" target="//@children.1/@children.0" targetEnd="//@children.1/@children.1/@sourceConnections.1/@children.2" label="//@children.1/@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="73,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="7,29"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor/Cashier->pos/MainSystem*actor/Cashier-Soyatec::Import->pos/MainSystem" source="//@children.1/@children.1" target="//@children.0/@children.0" targetEnd="//@children.1/@children.1/@sourceConnections.2/@children.2" label="//@children.1/@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="52,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="52,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.1/@sourceConnections.0 //@children.2/@children.0/@sourceConnections.2" name="Customer" location="197,99" size="102,29" id="actor/Customer">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor/Customer->actor/Cashier*actor/Customer-Soyatec::Import->actor/Cashier" source="//@children.1/@children.2" target="//@children.1/@children.1" targetEnd="//@children.1/@children.2/@sourceConnections.0/@children.2" label="//@children.1/@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,12" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="90,16"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor/Customer->actor/Actor" source="//@children.1/@children.2" target="//@children.1/@children.0" targetEnd="//@children.1/@children.2/@sourceConnections.1/@children.2" label="//@children.1/@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="30,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="60,29"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor/Customer->pos/MainSystem*actor/Customer-Soyatec::Import->pos/MainSystem" source="//@children.1/@children.2" target="//@children.0/@children.0" targetEnd="//@children.1/@children.2/@sourceConnections.2/@children.2" label="//@children.1/@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="15,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="102,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="actor->pos*actor-Soyatec::Import->pos*actor->pos*actor->pos*actor->pos*actor->pos*actor->pos*actor->pos*actor->pos" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="167,206" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="main" location="510,30" size="151,136" id="main">
+    <children xsi:type="editmodel:ClassEditModel" name="Main" location="52,34" size="73,29" id="main/Main" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="main/Main->pos/MainSystem*main/Main-Soyatec::Import->pos/MainSystem*main/Main->pos/MainSystem" source="//@children.2/@children.0" target="//@children.0/@children.0" targetEnd="//@children.2/@children.0/@sourceConnections.0/@children.2" label="//@children.2/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="14,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="79,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="main/Main->actor/Cashier*main/Main->actor/Cashier*main/Main-Soyatec::Import->actor/Cashier*main/Main->actor/Cashier*main/Main->actor/Cashier" source="//@children.2/@children.0" target="//@children.1/@children.1" targetEnd="//@children.2/@children.0/@sourceConnections.1/@children.2" label="//@children.2/@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,17" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="90,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="main/Main->actor/Customer*main/Main->actor/Customer*main/Main-Soyatec::Import->actor/Customer*main/Main->actor/Customer*main/Main->actor/Customer" source="//@children.2/@children.0" target="//@children.1/@children.2" targetEnd="//@children.2/@children.0/@sourceConnections.2/@children.2" label="//@children.2/@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,19" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="102,7"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="main->actor*main->actor*main-Soyatec::Import->actor*main->actor*main->actor*main->actor*main->actor*main->actor*main->actor" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,68" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="306,83"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="main->pos*main-Soyatec::Import->pos*main->pos*main->pos*main->pos" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,117" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,39"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.4/@sourceConnections.0" name="payment" location="480,915" size="356,203" id="payment">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@children.1/@sourceConnections.0 //@children.3/@children.2/@sourceConnections.0 //@children.4/@children.4/@sourceConnections.2" name="Payment" location="144,74" size="98,29" id="payment/Payment">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@children.4/@sourceConnections.1" name="PaymentCard" location="27,154" size="128,29" id="payment/PaymentCard">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="payment/PaymentCard->payment/Payment" source="//@children.3/@children.1" target="//@children.3/@children.0" targetEnd="//@children.3/@children.1/@sourceConnections.0/@children.2" label="//@children.3/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="122,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="5,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@children.4/@sourceConnections.0" name="PaymentCash" location="218,155" size="129,29" id="payment/PaymentCash">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="payment/PaymentCash->payment/Payment" source="//@children.3/@children.2" target="//@children.3/@children.0" targetEnd="//@children.3/@children.2/@sourceConnections.0/@children.2" label="//@children.3/@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="11,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="85,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.0/@sourceConnections.0" name="event" location="240,555" size="524,266" id="event">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@children.1/@sourceConnections.0 //@children.4/@children.2/@sourceConnections.0 //@children.4/@children.3/@sourceConnections.0 //@children.4/@children.4/@sourceConnections.3 //@children.4/@children.5/@sourceConnections.0 //@children.4/@children.6/@sourceConnections.0 //@children.0/@children.0/@sourceConnections.6" name="Event" location="228,40" size="77,29" id="event/Event">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.3" name="EventPGive" location="15,58" size="115,29" id="event/EventPGive">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPGive->event/Event" source="//@children.4/@children.1" target="//@children.4/@children.0" targetEnd="//@children.4/@children.1/@sourceConnections.0/@children.2" label="//@children.4/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="115,5" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,23"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.1" name="EventPInfo" location="26,172" size="110,29" id="event/EventPInfo">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPInfo->event/Event" source="//@children.4/@children.2" target="//@children.4/@children.0" targetEnd="//@children.4/@children.2/@sourceConnections.0/@children.2" label="//@children.4/@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="17,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.0" name="EventPManage" location="238,221" size="137,29" id="event/EventPManage">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPManage->event/Event" source="//@children.4/@children.3" target="//@children.4/@children.0" targetEnd="//@children.4/@children.3/@sourceConnections.0/@children.2" label="//@children.4/@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="33,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="43,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.2" name="EventPPay" location="395,217" size="110,29" id="event/EventPPay">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPPay->payment/PaymentCash" source="//@children.4/@children.4" target="//@children.3/@children.2" targetEnd="//@children.4/@children.4/@sourceConnections.0/@children.2" label="//@children.4/@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="86,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="23,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPPay->payment/PaymentCard" source="//@children.4/@children.4" target="//@children.3/@children.1" targetEnd="//@children.4/@children.4/@sourceConnections.1/@children.2" label="//@children.4/@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="49,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="70,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPPay->payment/Payment*event/EventPPay-Soyatec::Import->payment/Payment" source="//@children.4/@children.4" target="//@children.3/@children.0" targetEnd="//@children.4/@children.4/@sourceConnections.2/@children.2" label="//@children.4/@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="43,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="54,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPPay->event/Event" source="//@children.4/@children.4" target="//@children.4/@children.0" targetEnd="//@children.4/@children.4/@sourceConnections.3/@children.2" label="//@children.4/@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="40,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="54,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.8" name="EventPReceipt" location="90,220" size="134,29" id="event/EventPReceipt">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPReceipt->event/Event" source="//@children.4/@children.5" target="//@children.4/@children.0" targetEnd="//@children.4/@children.5/@sourceConnections.0/@children.2" label="//@children.4/@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="29,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.7" name="EventPSelect" location="14,105" size="126,29" id="event/EventPSelect">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event/EventPSelect->event/Event" source="//@children.4/@children.6" target="//@children.4/@children.0" targetEnd="//@children.4/@children.6/@sourceConnections.0/@children.2" label="//@children.4/@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="104,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,27"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event->payment*event->payment*event-Soyatec::Import->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment*event->payment" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="381,266" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="event->product*event->product*event-Soyatec::Import->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product*event->product" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="401,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="121,271"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.4/@sourceConnections.1" name="product" location="520,205" size="391,271" id="product">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@children.1/@sourceConnections.1 //@children.5/@children.2/@sourceConnections.1 //@children.5/@children.3/@sourceConnections.0" name="Product" location="156,39" size="91,29" id="product/Product">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.4" name="ProductBuy" location="64,90" size="115,29" id="product/ProductBuy">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="product/ProductBuy->product/ProductList" source="//@children.5/@children.1" target="//@children.5/@children.3" targetEnd="//@children.5/@children.1/@sourceConnections.0/@children.2" label="//@children.5/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="101,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="13,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="product/ProductBuy->product/Product" source="//@children.5/@children.1" target="//@children.5/@children.0" targetEnd="//@children.5/@children.1/@sourceConnections.1/@children.2" label="//@children.5/@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="103,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="11,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.5" name="ProductDB" location="231,90" size="109,29" id="product/ProductDB">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="product/ProductDB->product/ProductList" source="//@children.5/@children.2" target="//@children.5/@children.3" targetEnd="//@children.5/@children.2/@sourceConnections.0/@children.2" label="//@children.5/@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="16,29" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="95,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="product/ProductDB->product/Product*product/ProductDB->product/Product" source="//@children.5/@children.2" target="//@children.5/@children.0" targetEnd="//@children.5/@children.2/@sourceConnections.1/@children.2" label="//@children.5/@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="7,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="82,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@children.1/@sourceConnections.0 //@children.5/@children.2/@sourceConnections.0" name="ProductList" location="152,177" size="113,29" id="product/ProductList">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="product/ProductList->product/Product*product/ProductList-Soyatec::Import->product/Product" source="//@children.5/@children.3" target="//@children.5/@children.0" targetEnd="//@children.5/@children.3/@sourceConnections.0/@children.2" label="//@children.5/@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="49,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="45,29"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+    </children>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=4;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
